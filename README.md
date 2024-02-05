@@ -9,6 +9,9 @@
 - raspberry pi 4B
 - raspberry pi カメラモジュール V3
 - サーボモータ組み立てキット
+<img src="https://github.com/MaruSankakuEngineer/AutoCaptureFace/assets/159000149/bf3d8745-4d67-4fee-bd88-84aa0eea1d65" width="50%">
+<img src="https://github.com/MaruSankakuEngineer/AutoCaptureFace/assets/159000149/016e5977-2713-4455-9ead-53ab21d79a5f" width="50%">
+
 
 ## 動作
 動作は大きく分けて5つのモードから構成される。
@@ -23,3 +26,4 @@
 5. ENDモード
    各モード時にキー入力があると遷移するモード
    直ちにプログラムを終了する
+<img src="https://github.com/MaruSankakuEngineer/AutoCaptureFace/assets/159000149/91751bac-8e6e-4389-8e3f-146d6f76ec56" width="75%">
