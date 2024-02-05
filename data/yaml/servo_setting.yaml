@@ -1,0 +1,10 @@
+horizontal:
+  pin: 17
+  max_angle: 130
+  min_angle: 50
+  ini_angle: 90
+vertical:
+  pin: 27
+  max_angle: 70
+  min_angle: 30
+  ini_angle: 40

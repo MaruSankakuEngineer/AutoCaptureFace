@@ -1,0 +1,13 @@
+camera_setting:
+  format: XRGB8888
+  size: 
+    width: 640
+    height: 480
+
+cascade_setting:
+  xml_path: ../data/xml/haarcascade_frontalface_default.xml
+  scale_factor: 1.1
+  min_neighbors: 6
+  min_size: 
+    width: 200
+    height: 200
