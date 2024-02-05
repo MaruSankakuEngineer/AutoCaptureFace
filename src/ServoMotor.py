@@ -23,12 +23,13 @@ class ServoMotor:
         self.min_angle = min_angle
         self.angle = 0
         self.ini_angle = ini_angle
-        self.pi = pigpio.pi()
+        self.pi = None
 
     def start(self) -> None:
         """
         GPIOの開始処理
         """
+        self.pi = pigpio.pi()
         self.pi.set_mode(self.pin, pigpio.OUTPUT)
 
     def stop(self) -> None:

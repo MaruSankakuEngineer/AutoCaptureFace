@@ -68,7 +68,6 @@ def main():
 
     while True:
         img, face = detector.detect()
-        cv2.imwrite("b.jpg", img)
         for (x, y, w, h) in face:
             cv2.rectangle(img, (x, y), (x + w, y+h), (0, 0, 300), 2)
 
